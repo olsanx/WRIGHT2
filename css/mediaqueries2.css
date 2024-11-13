@@ -1,0 +1,700 @@
+@media only screen and (max-width: 1145px) {
+    .nav-container {
+      padding: 1rem 0;
+      max-width: 65rem;
+    }
+    .header-hr {
+      width: 65rem;
+    }
+    #about1 {
+       width: 65rem;
+       gap: 5.969rem;
+    }
+    .selfie {
+       width: 30.1281rem;
+       height: 28.1819rem;
+    }
+    .about-dtls {
+       width: 27.7144rem;
+       height: 25.1875rem;
+       margin-top: 1.8rem;
+    }
+    hr {
+       max-width: 65rem;
+    }
+    #results {
+       width: 65rem;
+    }
+    .results-image img {
+       width: 65rem;
+       height: 14.8719rem;
+    }
+    #collab-style {
+        width: 65rem;
+    }
+    .collab-image img {
+       width: 65rem;
+    }
+    #personal-interests {
+       width: 65rem;
+    }
+    .interests-slide {
+       width: 65rem;
+    }
+    footer {
+       gap: 6.6875rem;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+    .nav-container {
+      padding: 2rem 0;
+      max-width: 60.5rem;
+    }
+    .links-container {
+      margin-right: .5rem;
+    }
+    .header-hr {
+      width: 60.5rem;
+    }
+    #about1 {
+      width: 60rem;
+      margin: 8.125rem auto 1.818rem;
+      gap: 5.969rem;
+    }
+    .selfie {
+      margin-top: 1.5rem;
+      width: 26.1281rem;
+      height: 24.1819rem;
+    }
+    .about-dtls {
+      width: 27.7144rem;
+      height: 25.1875rem;
+      margin-top: 1rem;
+    }
+    hr {
+      max-width: 60rem;
+    }
+    #results {
+      width: 60rem;
+    }
+    .results-image img {
+      width: 60rem;
+      height: 14.8719rem;
+    }
+    #collab-style {
+      width: 60rem;
+    }
+    .collab-image img {
+      width: 60rem;
+    }
+    #personal-interests {
+      width: 60rem;
+    }
+    .interests-slide {
+      width: 60rem;
+    }
+    footer {
+      gap: 2.6875rem;
+    }
+}
+
+
+@media only screen and (max-width: 990px) {
+    .nav-container {
+      padding: 2rem 0;
+      max-width: 55.5rem;
+    }
+    .links-container {
+      margin-right: .5rem;
+    }
+    .header-hr {
+      width: 55.5rem;
+    }
+    #about1 {
+      width: 55rem;
+      margin: 8.125rem auto 1.818rem;
+      gap: 3.969rem;
+    }
+    .selfie {
+      margin-top: 1.5rem;
+      width: 24.1281rem;
+      height: 22.1819rem;
+    }
+    .about-dtls {
+      width: 27.7144rem;
+      height: 25.1875rem;
+      margin-top: 1.4rem;
+    }
+    .about-dtls h1 {
+       max-width: 24.8125rem;
+       font-size: 1.7rem;
+       margin-bottom: .8rem;
+    } 
+    .about-dtls p {
+       max-width: 24.513rem;
+       font-weight: 400;
+       font-size: .775rem;
+       margin-bottom: .8rem;
+    }
+    .lastdtl {
+       width: 24.7144rem; 
+       font-size: .775rem;
+    }
+    .social {
+      gap: .7688rem;
+      margin-top: .8rem;
+    }
+    hr {
+      max-width: 55rem;
+    }
+    #results {
+      width: 55rem;
+    }
+    .result-dtls h2 {
+      font-size: 1.275rem;
+      margin-bottom: .5rem;
+    }
+    .result-dtls p {
+      font-size: .775rem;
+      margin-bottom: .5rem;
+    }
+    .results-image img {
+      width: 55rem;
+      height: 12.8719rem;
+    }
+    .philosophy-dtls {
+        margin-bottom: 2rem;
+    }
+    .philosophy-dtls h2{
+      font-size: 1.275rem;
+      margin-bottom: .5rem;
+    }
+    .philosophy-dtls p {
+      font-size: .775rem;
+      margin-bottom: .5rem;
+    }
+    .mentality {
+      width: 51.8669rem;
+      max-height: 9.375rem;
+      display: flex;
+      gap: .7306rem;
+    } 
+    .fours {
+      width: 25.0681rem;
+      margin-bottom: .8525rem;
+    } 
+    .fours p {
+      font-size: .7525rem;
+    }
+    .experience-dtls h2 {
+      font-size: 1.275rem;
+    }
+    .core {
+      margin-bottom: 1.5rem;
+    }
+    .core p {
+      font-size: .7944rem;
+    }
+    .core2 {
+      display: flex;
+      gap: .5319rem;
+      margin-bottom: .5rem;
+    }
+    .core2 div {
+      min-width: 7.2125rem;
+    }
+    .core2 p {
+      margin: .625rem 1.0181rem;
+      font-size: .7306rem;
+    }
+    .tech p {
+      font-size: .7944rem;
+    } 
+    .tech2 {
+      gap: .5419rem;
+      margin-bottom: .5rem;
+    }
+    .tech2 div {
+      min-width: 7.3125rem;
+    } 
+    .tech2 p {
+      margin: .625rem 1.0181rem;
+      font-size: .7306rem;
+    }
+    #collab-style {
+      width: 55rem;
+    }
+    .collab-head h2 { 
+      font-size: 1.275rem;
+    }
+    .collab-head p {
+      font-size: .775rem;
+    }
+    .collab-image img {
+      width: 55rem;
+    }
+    #personal-interests {
+      width: 50rem;
+    }
+    .interests-head h2 {
+      font-size: 1.275rem;
+    }
+    .interests-head p {
+      font-size: .775rem;
+    }
+    .interests-slide {
+      width: 55rem;
+    }
+    footer {
+      gap: 2.6875rem;
+    }
+    .cat {
+      max-width: 27.7144rem;
+      margin-right: 3rem;
+    }      
+    .cat h5 {
+      width: 20.357rem;
+      font-size: 1.775rem;
+    }
+    .cat p {
+      max-width: 20.9375rem;
+      font-size: 0.775rem;
+    }
+    .social-container {
+      display: flex;
+    }
+    .socials {
+      max-width: 13.563rem;
+    }
+    .sociallinks {
+      width: 7.0625rem;
+    }
+    .X {
+      width: 1.3531rem;
+      height: 1.3531rem;
+    }
+    .X1 {
+      width: 1.3731rem;
+      height: .9375rem;
+    }
+    .adam-image {
+      width: 26.625rem;
+      height: 9rem;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .nav-container {
+      padding: 2rem 0;
+      max-width: 47.5rem;
+    }
+    .header-hr {
+      width: 47.5rem;
+    }
+    #about1 {
+      width: 47rem;
+      margin: 6.125rem auto 1.818rem;
+      gap: 2.069rem;
+    }
+    .selfie {
+      margin-top: 2.5rem;
+      width: 20.1281rem;
+      height: 18.1819rem;
+    }
+    .about-dtls {
+      width: 27.7144rem;
+      height: 25.1875rem;
+      margin-top: .5rem;
+    }
+    hr {
+      max-width: 47rem;
+    }
+    #results {
+      width: 47rem;
+    }
+    .results-image img {
+      width: 47rem;
+      height: 10.8719rem;
+    }
+    #philosophy {
+      width: 47rem;
+    }
+    .mentality {
+      width: 47rem;
+      max-height: 9.375rem;
+      display: flex;
+      gap: .7306rem;
+      margin: 0 auto;
+      align-items: center;
+      justify-content: center;
+    } 
+    .fours {
+      width: 23.0681rem;
+      margin-bottom: .8525rem;
+    } 
+    #collab-style {
+      width: 47rem;
+    }
+    .collab-image img {
+      width: 47rem;
+    }
+    #personal-interests {
+      width: 47rem;
+    }
+    .interests-slide {
+      width: 47rem;
+      height: 20rem;
+    }
+    footer {
+      gap: 1.0875rem;
+    }
+    .cat {
+      max-width: 25.7144rem;
+      margin-right: 2rem;
+    }      
+    .cat h5 {
+      width: 20.357rem;
+      font-size: 1.775rem;
+    }
+    .cat p {
+      max-width: 20.9375rem;
+      font-size: 0.775rem;
+    }
+    .social-container {
+      display: flex;
+    }
+    .socials {
+      max-width: 13.563rem;
+    }
+    .sociallinks {
+      width: 7.0625rem;
+    }
+    .X {
+      width: 1.3531rem;
+      height: 1.3531rem;
+    }
+    .X1 {
+      width: 1.3731rem;
+      height: .9375rem;
+    }
+    .adam-image {
+      width: 24.625rem;
+      height: 9rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .nav-container {
+      padding: 2rem 0;
+      max-width: 40.5rem;
+    }
+    .links-container {
+      display: none;
+    }
+    .hamburger {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 1.5rem;
+      height: 1.2rem;
+      cursor: pointer;
+      z-index: 10001;
+    }
+    .social-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1.5rem; 
+      width: 100%; 
+    }
+    .header-hr {
+      width: 40rem;
+    }
+    #about1 {
+      flex-direction: column;
+      width: 40rem;
+      margin: 6.125rem auto 1.818rem;
+      gap: 2.069rem;
+      align-items: center;
+      justify-content: center;
+    }
+    .selfie {
+      margin-top: 2.5rem;
+      width: 26.1281rem;
+      height: 24.1819rem;
+    }
+    hr {
+      max-width: 40rem;
+    }
+    #results {
+      width: 40rem;
+    }
+    .results-image img {
+      width: 40rem;
+      height: 8.8719rem;
+    }
+    #philosophy {
+      width: 40rem;
+    }
+    .mentality {
+      width: 40rem;
+    }  
+    #collab-style {
+      width: 40rem;
+    }
+    .collab-image img {
+      width: 40rem;
+    }
+    #personal-interests {
+      width: 40rem;
+    }
+    .interests-slide {
+      width: 40rem;
+      height: 18rem;
+    }
+    footer {
+      height: 24.75rem;
+      gap: 1.6875rem;
+    }
+    .footer-dtls {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 24.375rem;
+      display: flex;
+      margin: 0 auto;
+    }
+    .cat {
+      width: 22.375rem;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .cat h5 {
+      width: 21.357rem;
+      font-size: 1.625rem;
+    }
+    .cat p {
+      font-size: 0.775rem;
+      width: 20.1875rem;
+      margin-bottom: -2rem;
+    }
+    .social-container {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      order: 2;
+    }
+    .socials {
+      width: 13.563rem;
+      height: 1.469rem;
+      display: flex;
+      gap: .9688rem;
+      margin-top: .50rem;
+      position: relative;
+      bottom: 34px;
+      left: 7rem;
+    }
+    .sociallinks {
+      width: 6.4375rem;
+      height: 1.7806rem;
+      margin-top: 1.25rem;
+      margin-right: .0563rem;
+    }
+    .X {
+      width: 1.3356rem;
+      height: 1.3356rem;
+    } 
+    .X1 {
+      width: 1.4456rem;
+      height: .8612rem;
+      margin-top: .28rem;
+    }
+    .adam-image {
+      width: 22.375rem;
+      height: 10rem;
+      order: 1;
+    }
+  }
+
+@media only screen and (max-width: 650px) {
+  .nav-container {
+    max-width: 30.5rem;
+  }
+  .header-hr {
+    width: 30rem;
+  }
+  #about1 {
+    width: 30rem;
+    gap: 1.069rem;
+  } 
+  .selfie {
+    margin-top: .5rem;
+    width: 26.1281rem;
+    height: 24.1819rem;
+  }
+  .about-dtls {
+    width: 22.4375rem;
+    height: 25.1875rem;
+    margin-top: .9rem;
+  }
+  .about-dtls h1 {
+     font-size: 1.625rem;
+     margin-bottom: .875rem;
+  } 
+  .about-dtls p {
+     font-size: .85rem;
+     margin-bottom: .8rem;
+  }
+  .lastdtl {
+    width: 22.4375rem;
+    font-size: .85rem;
+  }
+  hr {
+    display: none;
+  }  
+  #results {
+    width: 22.375rem;
+    margin: 3.688rem auto 3.4781rem;
+  }
+  .result-dtls {
+    width: 22.375rem;
+    margin-bottom: 1.875rem;
+  }
+  .result-dtls h2{
+    font-size: 1.1875rem;
+    margin-bottom: .375rem;
+  }
+  .result-dtls p {
+    font-size: .85rem;
+    margin-bottom: 0;
+    width: 22.375rem;
+  }
+  .results-image img {
+    width: 14.6044rem;
+    height: 54.9387rem;
+  }
+  .desktopstats {
+    display: none;
+  }
+  .mobilestats {
+    display: flex;
+  }
+  #philosophy {
+    width: 22.4375rem;
+    margin: 3.688rem auto 2.4781rem;
+  }
+  .philosophy-dtls {
+    margin-bottom: 1.875rem;
+    width: 22.4375rem;
+  }
+  .philosophy-dtls h2{
+    font-size: 1.1875rem;
+    margin-bottom: .375rem;
+  }
+  .philosophy-dtls p {
+    font-size: .85rem;
+    margin-bottom: 0;
+    width: 22.4375rem;
+  }
+  .mentality {
+    width: 22.4375rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+  }
+  .fours {
+    width: 22.4375rem;
+    margin-bottom: .1406rem;
+  } 
+  .fours p {
+    font-size: .7456rem;
+    margin: .6025rem 1.0175rem;
+  }
+  #experience {
+    width: 22.4375rem;
+    margin: 0 auto 7.4781rem;
+  }
+  .experience-dtls h2 {
+    font-size: 1.1875rem;
+    margin-bottom: .75rem;
+  }
+  .core {
+    margin-bottom: 2rem;
+  }
+  .core p {
+    font-size: .7719rem;
+    margin-bottom: .6475rem;
+  }
+  .core2 {
+    display: flex;
+    gap: .5319rem;
+    margin-bottom: .5rem;
+    width: 22.4375rem;
+  }
+  .core2 div {
+    min-width: 7.9425rem;
+  }
+  .core2 p {
+    margin: .625rem .281rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .7169rem;
+  }
+  .tech p {
+    font-size: .7944rem;
+  } 
+  .tech2 {
+    gap: .5419rem;
+    margin-bottom: .5rem;
+  }
+  .tech2 div {
+    min-width: 7.3125rem;
+  } 
+  .tech2 p {
+    margin: .625rem 1.0181rem;
+    font-size: .7306rem;
+  }
+}
