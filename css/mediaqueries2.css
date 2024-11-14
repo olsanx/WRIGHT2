@@ -97,6 +97,10 @@
     footer {
       gap: 2.6875rem;
     }
+    .cat {
+      width: 25.7144rem;
+      margin-right: 3rem;
+    }
 }
 
 
@@ -516,9 +520,9 @@
       font-size: 1.625rem;
     }
     .cat p {
-      font-size: 0.775rem;
-      width: 20.1875rem;
-      margin-bottom: -2rem;
+      font-size: .85rem;
+      width: 22.375rem;
+      margin-bottom: 1rem;
     }
     .social-container {
       display: flex;
@@ -545,6 +549,7 @@
     .X {
       width: 1.3356rem;
       height: 1.3356rem;
+      margin-right: .363rem;
     } 
     .X1 {
       width: 1.4456rem;
@@ -552,9 +557,16 @@
       margin-top: .28rem;
     }
     .adam-image {
+      display: none;
       width: 22.375rem;
       height: 10rem;
       order: 1;
+    }
+    .adam-image-mobile {
+      display: inline;
+      width: 22.375rem;
+      height: 7.5rem;
+      margin-bottom: -1.7rem;
     }
   }
 
@@ -564,6 +576,7 @@
   }
   .header-hr {
     width: 30rem;
+    display: inline;
   }
   #about1 {
     width: 30rem;
@@ -668,33 +681,182 @@
     margin-bottom: .6475rem;
   }
   .core2 {
+    display: none;
+  }
+  .core2-mobile {
     display: flex;
-    gap: .5319rem;
+    gap: .5419rem;
     margin-bottom: .5rem;
     width: 22.4375rem;
   }
-  .core2 div {
-    min-width: 7.9425rem;
-  }
-  .core2 p {
-    margin: .625rem .281rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .core2-mobile div {
+    background: #FAFAFA;
+    border-radius: .5rem;
+    border: 1px solid #ECECEC;
+  } 
+  .core2-mobile p {
+    margin: .625rem .681rem;
     font-size: .7169rem;
+    font-weight: 400;
+    color: #555453;
   }
   .tech p {
     font-size: .7944rem;
   } 
   .tech2 {
+    display: none;
+  }
+  .tech2-mobile {
+    display: flex;
     gap: .5419rem;
     margin-bottom: .5rem;
+    width: 22.4375rem;
   }
-  .tech2 div {
-    min-width: 7.3125rem;
+  .tech2-mobile div {
+    background: #FAFAFA;
+    border-radius: .5rem;
+    border: 1px solid #ECECEC;
+  }
+  .tech2-mobile p {
+    margin: .625rem .681rem;
+    font-size: .7169rem;
+    font-weight: 400;
+    color: #555453;
+  }
+  #collab-style {
+    width: 24.375rem;
+    margin-top: -3rem;
+  }
+  .collab-head {
+    width: 22.575rem;
+    margin-right: 0;
+  }
+  .collab-head h2 {
+    font-size: 1.1875rem;
+    margin-bottom: .375rem;
+  }
+  .collab-head p {
+    font-size: .85rem;
+  }
+  .collab-image img {
+    width: 24.375rem;
+  }
+  #personal-interests {
+    width: 22.375rem;
+    margin-top: -3.25rem;
+  }
+  .interests-head {
+    width: 22.375rem;
+    margin-bottom: 1.875rem;
+  }
+  .interests-head h2 {
+    font-size: 1.1875rem;
+    margin-bottom: .375rem;
+  }
+  .interests-head p {
+    font-size: .85rem;
+  }
+  .interests-slide {
+    width: 22.375rem;
+    height: 13.75rem;
+  }
+  .interests-slide video {
+    min-width: 21.250rem;
+  }
+  .interests-slide img {
+    min-width: 21.250rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .nav-container {
+    max-width: 24.375rem;
+  }
+  .header-hr {
+    width: 24.375rem;
+    display: inline;
+  }
+  #about1 {
+    width: 24.375rem;
+    gap: 1.069rem;
   } 
-  .tech2 p {
-    margin: .625rem 1.0181rem;
-    font-size: .7306rem;
+  .selfie {
+    margin-top: .5rem;
+    width: 24.375rem;
+    height: 22.985rem;
+  }
+  .about-dtls {
+    width: 22.4375rem;
+    height: 25.1875rem;
+    margin-top: .9rem;
+  }
+  .about-dtls h1 {
+     font-size: 1.625rem;
+     margin-bottom: .875rem;
+  } 
+  .about-dtls p {
+     font-size: .85rem;
+     margin-bottom: .8rem;
+  }
+  .lastdtl {
+    width: 22.4375rem;
+    font-size: .85rem;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .nav-container {
+    max-width: 24.375rem;
+    height: 4.5rem;
+    padding: 0 1rem;
+  }
+  .header-hr {
+    width: 24.375rem;
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .nav-container {
+    max-width: 22.375rem;
+    height: 4.5rem;
+    padding: 0 1rem;
+  }
+  .header-hr {
+    width: 20.375rem;
+    display: inline;
+  }
+  #about1 {
+    width: 19.375rem;
+    gap: 1.069rem;
+  } 
+  .selfie {
+    margin-top: .5rem;
+    width: 20.375rem;
+    height: 17.985rem;
+  }
+  .about-dtls {
+    width: 22.4375rem;
+    height: 25.1875rem;
+    margin-top: .9rem;
+  }
+  .about-dtls h1 {
+     font-size: 1.625rem;
+     margin-bottom: .875rem;
+  } 
+  .about-dtls p {
+     font-size: .85rem;
+     margin-bottom: .8rem;
+  }
+  .lastdtl {
+    width: 22.4375rem;
+    font-size: .85rem;
+  }
+  #collab-style {
+    width: 20.375rem;
+    margin-top: -3rem;
+  }
+  .collab-image img {
+    width: 20.375rem;
   }
 }

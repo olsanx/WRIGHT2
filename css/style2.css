@@ -521,6 +521,12 @@ b {
   font-weight: 400;
   color: #555453;
 }
+.core2-mobile {
+  display: none;
+}
+.tech2-mobile {
+  display: none;
+}
 
 .tech p {
   font-weight: 400;
@@ -740,6 +746,10 @@ footer {
 .adam-image {
   width: 30.625rem;
   height: 10rem;
+}
+
+.adam-image-mobile {
+  display: none;
 }
 
 
